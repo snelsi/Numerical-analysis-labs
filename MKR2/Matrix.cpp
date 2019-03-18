@@ -31,7 +31,7 @@ Matrix::Matrix(const Matrix &copy) {
 		b = new float[n];
 		for (int i = 0; i < n; i++) {
 			a[i] = new float [n];
-			for (int j = 0; j < 0; j++) {
+			for (int j = 0; j < n; j++) {
 				a[i][j] = copy.a[i][j];
 			}
 			b[i] = copy.b[i];
